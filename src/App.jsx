@@ -1,11 +1,15 @@
 import EdgeSquares from "./EdgeSquares";
+import Canvas from "./Canvas";
 
 function App() {
   return (
-    <main>
+    <>
       <EdgeSquares />
-    <h1>Neural Classifier</h1>
-    </main>
+      <main>
+        <h1>Neural Classifier</h1>
+        <Canvas />
+      </main>
+    </>
   );
 }
 
